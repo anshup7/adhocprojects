@@ -1,0 +1,8 @@
+.main-container {
+    background: conic-gradient(from 265.73deg at 50.4% 39.4%, #211327 -47.46deg, #0E131F 101.77deg, #5762D5 162.22deg, #FA198B 187.65deg, #211327 312.54deg, #0E131F 461.77deg);;
+    border-radius: 3em;
+    width: 80vw;
+    height: 40vh;
+    margin: 10em 10em;
+    position: relative;
+}
