@@ -28,6 +28,8 @@ function App() {
       return true;
     });
 
+    if(filtered.length === 0) return;
+
     let movedElements = list.filter(obj => {
       if (filtered.includes(obj.key)) {
         return true;
@@ -49,7 +51,7 @@ function App() {
       if (index) return false;
       return true;
     });
-
+    if (filtered.length === 0) return;
     let movedElements = list.filter(obj => {
       if (filtered.includes(obj.key)) {
         return true;
