@@ -65,10 +65,10 @@ export default function PasswordText({defaultPassword}) {
             <button id="text_copy" className="text-copy" onClick={() => {
                 const response = randomPasswordGenerator();
                 setPassword(response);
-            }}>Copy</button>
+            }}>Suggest</button>
         </div>
-        <div id="password_controls_container" className="password-controls-container">
+        {/* <div id="password_controls_container" className="password-controls-container">
            <PasswordControls />
-        </div>
+        </div> */}
     </>)
 }

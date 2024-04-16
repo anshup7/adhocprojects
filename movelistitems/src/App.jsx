@@ -42,10 +42,10 @@ function App() {
     const movedElementIds = movedElements.map(obj => obj.key);
     const newRight = listRight.filter(obj => !movedElementIds.includes(obj.key));
     setListRight(newRight);
-    setSelectedItems({});
+    setSelectedItems({}); // can be in useEffect
   }
 
-  function handleSelectRight() { // logic duplication, can we use useEffect?
+  function handleSelectRight() { 
     let filtered = Object.keys(selectedItems).filter(id => { //n2
       const index = listRight.find(obj => obj.key == id);
       if (index) return false;
@@ -67,7 +67,7 @@ function App() {
     const newLeft = listLeft.filter(obj => !movedElementIds.includes(obj.key));
     console.log("new left", newLeft);
     setListLeft(newLeft);
-    setSelectedItems({});
+    setSelectedItems({}); // can be in useEffect
   }
 
   function handleItemsSelect(id) {
