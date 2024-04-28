@@ -1,0 +1,59 @@
+{
+    "name": "Computer",
+    "type": "Directory",
+    "key": "comp",
+    "children": [
+        {
+            "name": "Desktop",
+            "type": "Directory",
+            "key": "desk",
+            "children": [
+                {
+                    "name": "maps.txt",
+                    "type": "File",
+                    "key": "mapst",
+                    "children": []
+                },
+                {
+                    "name": "Financial Documents",
+                    "type": "Directory",
+                    "key": "findoc",
+                    "children": [
+                        {
+                            "name": "maps2.txt",
+                            "type": "File",
+                            "key": "mapst2",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Documents",
+            "type": "Directory",
+            "key": "docu",
+            "children": [
+                {
+                    "name": "Folder 1",
+                    "type": "Directory",
+                    "key": "fod1",
+                    "children": [
+                        {
+                            "name": "salary.pdf",
+                            "type": "File",
+                            "key": "salp",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Accounts.txt",
+                    "type": "File",
+                    "key": "acct",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}
